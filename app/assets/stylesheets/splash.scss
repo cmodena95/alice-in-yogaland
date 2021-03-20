@@ -1,5 +1,13 @@
 .splash {
-  background-color: blue;
-  width: 25px;
-  height: 25px;
+  background-image: url('splashimage.jpg');
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
 }
