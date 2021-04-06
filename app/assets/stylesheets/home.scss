@@ -1,0 +1,30 @@
+// BANNER
+.home-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 4px 346px 138px black;
+}
+
+
+// ABOUT SECTION
+.about-alice-content {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.about-alice-text {
+  flex-grow: 4;
+  text-align: center;
+  z-index: 1;
+}
+
+.about-alice-quote {
+  position: absolute;
+  right: 0;
+}
+
+.about-image {
+  height: 500px;
+}

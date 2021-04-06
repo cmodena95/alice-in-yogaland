@@ -1,2 +1,32 @@
-<div class="home">
+<div class="homepage">
+
+  <div class="homepage-banner">
+    <%= image_tag("homepageimage.png", class: "home-image") %>
+    <div class="about-alice-quote">
+      <q>Alice in Wonderland quote goes here</q>
+    </div>
+  </div>
+
+  <div class="about-alice">
+    <div class="about-alice-content">
+
+      <div class="about-alice-text">
+        <h2>
+          Alice Francis
+        </h2>
+        <p>
+          aaaaaa
+        </p>
+      </div>
+
+      <div class="about-alice-image">
+        <%= image_tag("image1.jpeg", class: "about-image") %>
+      </div>
+    </div>
+
+    <%= link_to "More about Alice", home_path, class: "btn-more" %>
+    <!-- CHANGE PATH ABOVE -->
+
+  </div>
+
 </div>
