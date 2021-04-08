@@ -1,9 +1,16 @@
 .btn-more {
-  color: white;
-  font-family: 'Henny Penny', cursive;
+  color: #C8C8C8;
+  font-family: 'Waiting for the Sunrise', cursive;
   font-size: 28px;
-  border: 1px solid white;
-  padding: 10px 20px;
+  border: 2px solid #C8C8C8;
+  padding: 10px 25px;
   text-decoration: none;
   border-radius: 50px;
+  transition: 0.5s;
 }
+
+.btn-more:hover {
+  color: white;
+}
+
+

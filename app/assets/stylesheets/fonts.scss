@@ -1,3 +1,5 @@
+// HEADERS
+
 h1 {
   font-family: 'Henny Penny', cursive;
   color: black;
@@ -7,12 +9,42 @@ h2 {
   font-family: 'Henny Penny', cursive;
   color: #C8C8C8;
   font-size: 64px;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
+h3 {
+  font-family: 'Henny Penny', cursive;
+  color: #C8C8C8;
+  font-size: 48px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h4 {
+  font-family: 'Loved by the King', cursive;
+  color: #C8C8C8;
+  font-size: 40px;
+  margin: 0 !important;
+}
+
+h5 {
+  font-family: 'Loved by the King', cursive;
   color: #C8C8C8;
   font-size: 28px;
+  margin: 0 !important;
+}
+
+
+
+// NON-HEADERS
+
+p {
+  font-family: 'Loved by the King', cursive;
+  color: #C8C8C8;
+  font-size: 28px;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 q {
