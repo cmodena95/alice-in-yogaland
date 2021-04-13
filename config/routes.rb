@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get 'blog', to: 'blog#index'
   root to: 'pages#splash'
   get '/home', to: 'pages#home', as: 'home'
+  get '/about', to: 'pages#about', as: 'about'
 
 end

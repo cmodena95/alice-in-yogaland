@@ -15,12 +15,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Annie+Use+Your+Telescope&family=Loved+by+the+King&family=Sue+Ellen+Francisco&family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
 
   <body>
 
+  <div class="menu-button"></div>
+
       <%= yield %>
+
+
+  <div class="footer">
+    <%= image_tag("mushrooms.png", class: "footer") %>
+
+    <!-- REPLACE WITH APPRORPIATELY SIZED IMAGE -->
+
+    <i class="fas fa-spa"></i>
+
+  </div>
 
   </body>
 </html>

@@ -13,3 +13,11 @@
 #next-class-text {
   margin-bottom: 30px;
 }
+
+// --- MOBILE VIEW ---
+@media screen and (max-device-width: 400px) {
+  .homepage-section {
+    display: block;
+    margin: 150px;
+  }
+}

@@ -3,3 +3,14 @@
   right: 0;
   transform: translate(-25px, -50px);
 }
+
+
+
+// --- MOBILE VIEW ---
+@media screen and (max-device-width: 400px) {
+  .quote-right {
+    transform: translate(0px, 0px);
+  }
+}
+
+

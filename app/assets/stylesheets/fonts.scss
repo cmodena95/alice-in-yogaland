@@ -52,3 +52,25 @@ q {
   color: #C8C8C8;
   font-size: 28px;
 }
+
+i {
+  color: blue;
+}
+
+
+
+// --- MOBILE VIEW ---
+@media screen and (max-device-width: 400px) {
+  q {
+    font-size: 48px;
+    text-align: center;
+  }
+}
+
+
+// --- TABLET VIEW ---
+@media screen and (min-device-width: 401px) and (max-device-width: 1024px) {
+  q {
+    font-size: 48px;
+  }
+}
