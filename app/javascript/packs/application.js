@@ -15,3 +15,14 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+
+// Internal imports, e.g:
+// import { initSelect2 } from '../components/init_select2';
+import { initNavbar } from '../components/initNavbar';
+
+document.addEventListener('turbolinks:load', () => {
+  // Call your functions here, e.g:
+  // initSelect2();
+  initNavbar();
+});

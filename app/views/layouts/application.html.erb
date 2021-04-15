@@ -20,36 +20,11 @@
 
   <body>
 
-    <div class="menu-button">
-      <%= image_tag("menu.png", class: "menu-button-image") %>
-    </div>
-
-    <div class="main-menu">
-      <%= link_to "Yoga Schedule", "#" %>
-      <%= link_to "Art", "#" %>
-      <%= link_to "Journal", "#" %>
-      <%= link_to "About", "#" %>
-      <%= link_to "Contact", "#" %>
-    </div>
-
-    <div class="navbar-mobile">
-      <p id="menu-text">MENU</p>
-    </div>
+  <%= render "shared/navbar" unless current_page?(root_path) %>
 
       <%= yield %>
 
-
-    <div class="footer">
-      <%= image_tag("mushrooms.png", class: "footer") %>
-
-      <!-- REPLACE WITH DIFFERENT, SMALLER IMAGE -->
-
-      <div class="footer-content">
-        <%= image_tag("lotus.png", class: "lotus")  %>
-        <q class="quote-right-bottom">Alice in wonderland quote goes here...</q>
-      </div>
-
-    </div>
+  <%= render "shared/footer" unless current_page?(root_path) %>
 
   </body>
 </html>
