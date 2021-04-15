@@ -1,16 +1,33 @@
-.quote-right {
+.quote-right-top {
   position: absolute;
   right: 0;
-  transform: translate(-25px, -50px);
+  padding-right: 20px;
+  bottom: -52px;
+}
+
+.quote-right-bottom {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
 }
 
 
 
 // --- MOBILE VIEW ---
 @media screen and (max-device-width: 400px) {
-  .quote-right {
-    transform: translate(0px, 0px);
+  .quote-right-top {
+    transform: translate(-83px, 60px);
+    font-size: 56px;
+  }
+
+  .quote-right-bottom {
+    transform: translate(0px, -23px);
   }
 }
 
-
+// --- TABLET VIEW ---
+@media screen and (min-device-width: 401px) and (max-device-width: 1336px) {
+  .quote-right-top {
+    transform: translate(0px, 16px);
+  }
+}
