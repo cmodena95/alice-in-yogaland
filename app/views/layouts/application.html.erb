@@ -20,30 +20,36 @@
 
   <body>
 
-  <div class="navbar">
     <div class="menu-button">
       <%= image_tag("menu.png", class: "menu-button-image") %>
     </div>
-  </div>
 
-  <div class="navbar-mobile">
-    <p id="menu-text">MENU</p>
-  </div>
+    <div class="main-menu">
+      <%= link_to "Yoga Schedule", "#" %>
+      <%= link_to "Art", "#" %>
+      <%= link_to "Journal", "#" %>
+      <%= link_to "About", "#" %>
+      <%= link_to "Contact", "#" %>
+    </div>
+
+    <div class="navbar-mobile">
+      <p id="menu-text">MENU</p>
+    </div>
 
       <%= yield %>
 
 
-  <div class="footer">
-    <%= image_tag("mushrooms.png", class: "footer") %>
+    <div class="footer">
+      <%= image_tag("mushrooms.png", class: "footer") %>
 
-    <!-- REPLACE WITH DIFFERENT, SMALLER IMAGE -->
+      <!-- REPLACE WITH DIFFERENT, SMALLER IMAGE -->
 
-    <div class="footer-content">
-      <%= image_tag("lotus.png", class: "lotus")  %>
-      <q class="quote-right-bottom">Alice in wonderland quote goes here...</q>
+      <div class="footer-content">
+        <%= image_tag("lotus.png", class: "lotus")  %>
+        <q class="quote-right-bottom">Alice in wonderland quote goes here...</q>
+      </div>
+
     </div>
-
-  </div>
 
   </body>
 </html>
