@@ -50,3 +50,29 @@ body {
     height: 100%;
 }
 
+
+// --- MOBILE VIEW ---
+@media screen and (max-device-width: 400px) {
+  .splash {
+    background-position-x: 69%;
+  }
+
+  .splash h1 {
+    font-size: 105px;
+  }
+
+  .splash .btn-enter {
+    font-size: 76px;
+  }
+}
+
+// --- TABLET VIEW ---
+@media screen and (min-device-width: 401px) and (max-device-width: 1336px) {
+  .splash {
+    background-position-x: 72%;
+  }
+
+  .splash .btn-enter {
+    font-size: 70px;
+  }
+}
