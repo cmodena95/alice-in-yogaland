@@ -13,6 +13,7 @@
   top: 0;
   right: 0;
   z-index: 10;
+  cursor: pointer;
 }
 
 .menu-button-image {
@@ -30,7 +31,7 @@
 // --- MOBILE VIEW ---
 
 @media screen and (max-device-width: 400px) {
-  .navbar {
+  .menu-button {
     display: none;
   }
 

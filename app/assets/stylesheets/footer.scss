@@ -12,3 +12,18 @@
   height: 50px;
   padding: 0px 0px 20px 20px;
 }
+
+
+// --- MOBILE VIEW ---
+@media screen and (max-device-width: 400px) {
+  .lotus {
+    transform: translate(8px, -13px);
+  }
+}
+
+// --- TABLET VIEW ---
+@media screen and (min-device-width: 401px) and (max-device-width: 1336px) {
+  .lotus {
+    transform: translate(8px, -3px);
+  }
+}
