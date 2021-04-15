@@ -9,10 +9,19 @@
 .menu-button {
   height: 75px;
   width: 75px;
-  // z-index: 1;
   background-color: orange;
   border-radius: 50%;
   float: right;
   margin: 30px;
-  // z-index: 1;
+}
+
+.menu-button-image {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  transform: translateY(-60%);
 }

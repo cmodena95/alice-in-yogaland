@@ -22,7 +22,9 @@
   <body>
 
   <div class="navbar">
-    <div class="menu-button"></div>
+    <div class="menu-button">
+      <%= image_tag("menu.png", class: "menu-button-image") %>
+    </div>
   </div>
 
       <%= yield %>
@@ -31,7 +33,7 @@
   <div class="footer">
     <%= image_tag("mushrooms.png", class: "footer") %>
 
-    <!-- REPLACE WITH APPRORPIATELY SIZED IMAGE -->
+    <!-- REPLACE WITH DIFFERENT IMAGE -->
 
     <i class="fas fa-spa"></i>
 
