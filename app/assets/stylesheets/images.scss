@@ -30,4 +30,24 @@
   .home-image {
     display: none;
   }
+
+  .vintage-paper-1 {
+    height: 47vh;
+    transform: translate(-17px, 67px);
+  }
+
+}
+
+
+// TABLET VIEW
+@media screen and (min-device-width: 401px) and (max-device-width: 1336px) {
+  .vintage-paper-1 {
+    height: 47vh;
+    transform: translate(-32px, 40px);
+  }
+
+  .home-image-1 {
+    transform: translate(80px, 78px);
+    z-index: -1;
+  }
 }
