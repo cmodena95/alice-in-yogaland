@@ -21,6 +21,12 @@ require("channels")
 // import { initSelect2 } from '../components/init_select2';
 import { initNavbar } from '../components/initNavbar';
 
+import { changeToSection1 } from '../components/homepageContent';
+import { changeToSection2 } from '../components/homepageContent';
+import { changeToSection3 } from '../components/homepageContent';
+import { changeToSection4 } from '../components/homepageContent';
+
+
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();

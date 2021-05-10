@@ -6,6 +6,7 @@
   background-image: url(https://res.cloudinary.com/cmcm95/image/upload/v1618494686/Screenshot_2021-04-15_at_15.47.20_y0xhca.png);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 55px;
 }
 
 .homepage-section {
@@ -17,7 +18,7 @@
 .homepage-text {
   text-align: center;
   z-index: 1;
-  margin: auto;
+  // margin: auto;
 }
 
 #next-class-text {
@@ -28,11 +29,11 @@
   width: 2vw;
   z-index: 1;
   position: absolute;
+  opacity: 70%;
 }
 
 .left {
   left: 2vw;
-
 }
 
 .right {
@@ -41,8 +42,14 @@
 
 
 
-#hp2, #hp3, #hp4 {
+.homepage-hidden {
   display: none;
+}
+
+
+#section-1-text {
+  width: 400px;
+  transform: translate(-79px, 10px);
 }
 
 

@@ -1,13 +1,25 @@
 // home
-.home-image {
-  height: 500px;
+.home-image-1 {
+  height: 600px;
+  background-image: url(image1.jpeg);
+  background-size: cover;
+  width: 400px;
+  box-shadow: inset 0px 0px 17px 27px #0E0C0C;
+  transform: translate(120px, 76px);
 }
 
-.home-mushrooms {
-  width: 100%;
+.vintage-paper-1 {
   position: absolute;
-  bottom: -50px;
+  height: 100vh;
+  vertical-align: center;
+  transform: translate(75px, 0px);
 }
+
+
+// .home-image-1 {
+//   box-shadow: inset 3px 4px 5px #000;
+// }
+
 
 // about
 
