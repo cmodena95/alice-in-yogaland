@@ -13,18 +13,29 @@
 
 
 <!-- ABOUT ALICE SECTION -->
-  <div class="homepage-section">
+
+  <div class="homepage-section" id="hp1">
+    <%= image_tag("leftarrow.png", class: "arrow left") %>
 
     <div class="homepage-text">
       <h2>Alice Francis</h2>
       <p>aaaaaa text here text here text here text here</p>
       <%= link_to "More about Alice", about_path, class: "btn-more" %>
     <!-- CHANGE PATH ABOVE ONCE PAGES GENERATED -->
+      <p>
+        <div class="homepage-content-buttons">
+          <div class="content-button"></div>
+          <div class="content-button"></div>
+          <div class="content-button"></div>
+          <div class="content-button"></div>
+        </div>
+      </p>
 
     </div>
 
       <%= image_tag("image1.jpeg", class: "home-image") %>
 
+      <%= image_tag("rightarrow.png", class: "arrow right") %>
   </div>
 
 
@@ -32,7 +43,7 @@
 
 
 <!-- LATEST BLOG POST SECTION -->
-  <div class="homepage-section">
+  <div class="homepage-section" id="hp2">
 
     <%= image_tag("image2.jpeg", class: "home-image") %>
     <!-- REPLACE ABOVE WITH IMAGE FROM LATEST POST -->
@@ -53,7 +64,7 @@
 
 
 <!-- NEXT YOGA CLASS SECTION -->
-  <div class="homepage-section">
+  <div class="homepage-section" id="hp3">
 
     <div class="homepage-text">
       <div id="next-class-text">
@@ -79,7 +90,7 @@
 
 
 <!-- LATEST ARTWORK SECTION -->
-  <div class="homepage-section">
+  <div class="homepage-section" id="hp4">
 
     <%= image_tag("image5.jpeg", class: "home-image") %>
 

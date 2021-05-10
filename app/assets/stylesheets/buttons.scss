@@ -12,3 +12,17 @@
 .btn-more:hover {
   color: white;
 }
+
+// HOMEPAGE CONTENT BUTTONS
+.homepage-content-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.content-button {
+  width: 15px;
+  height: 15px;
+  background-color: #C8C8C8;
+  border-radius: 50%;
+  margin: 10px;
+}

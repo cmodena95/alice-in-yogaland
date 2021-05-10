@@ -10,11 +10,11 @@
 
 .homepage-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .homepage-text {
-  flex-grow: 4;
   text-align: center;
   z-index: 1;
   margin: auto;
@@ -23,6 +23,28 @@
 #next-class-text {
   margin-bottom: 30px;
 }
+
+.arrow {
+  width: 2vw;
+  z-index: 1;
+  position: absolute;
+}
+
+.left {
+  left: 2vw;
+
+}
+
+.right {
+  right: 2vw;
+}
+
+
+
+#hp2, #hp3, #hp4 {
+  display: none;
+}
+
 
 // --- MOBILE VIEW ---
 @media screen and (max-device-width: 400px) {
